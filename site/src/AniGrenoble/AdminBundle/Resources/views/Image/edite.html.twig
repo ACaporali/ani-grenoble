@@ -1,0 +1,17 @@
+{% extends "AniGrenobleAppBundle:Include:layout.html.twig" %}
+
+{% block title %}Modifier une image - {{ parent() }}{% endblock %}
+
+{% block head %}{{ parent() }}{% endblock %}
+
+{% block site_body %}
+	<h2>Modifier une image</h2>
+<div class="back-ground-blanc">
+  	{{ include("AniGrenobleAdminBundle:Image:form.html.twig") }}
+
+  	<p>
+    	<a href="{{ path('ani_grenoble_app_homepage') }}" class="btn btn-secondary">Annuler</a>
+  	</p>
+</div>
+
+{% endblock %}

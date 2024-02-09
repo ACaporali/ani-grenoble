@@ -1,0 +1,502 @@
+/*------Css general------*/
+body{
+	background-image: url('../image/Background_Haut.png'),
+	url('../image/Background_Bas.png');
+	background-repeat: no-repeat, repeat;
+	background-size: contain, contain;
+}
+
+h1{
+	font-size: 3.2rem;
+	text-align: center;
+}
+
+h2{
+	font-size: 2.2rem;
+	text-align: center;
+}
+
+h3{
+	font-size: 1.80rem;
+}
+
+p.p-titre-index{
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+a{
+	color: #EE6E73;
+	text-decoration: none;
+}
+
+a.btn-secondary:hover{
+	color: #ffffff;
+}
+
+a:hover{
+	color: #ef8689;
+}
+
+hr{
+	width: 50px;
+	text-align:center;
+	height: 4px;
+	background-color: #EE6E73;
+	border: 0;
+	margin-bottom: 30px;
+}
+
+footer.page-footer {
+    margin-top: 0px;
+}
+
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=date]:focus:not([readonly]){
+	border-bottom: 1px solid #EE6E73;
+	box-shadow: 0 1px 0 0 #EE6E73;
+}
+
+input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label{
+	color: #EE6E73;
+}
+
+[type="checkbox"]:checked+label:before{
+	border-right: 2px solid #EE6E73;
+    border-bottom: 2px solid #EE6E73;
+}
+
+.back-ground-blanc{
+	background-color: #ffffff;
+	padding: 20px 40px;
+}
+
+.lien-facebook-footer img{
+	width: 40px;
+	height: auto;
+}
+
+.btn{
+	background-color: #EE6E73;
+}
+
+.btn:hover{
+	background-color: #ef8689;
+}
+
+.back-to-top{
+	width: 100px;
+	height: 100px;
+	position:fixed;
+	bottom:75px;
+	right:0px;
+	display:none;
+	background-image: url('../image/back_to_top/happy-normal.png');
+	background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 3;
+}
+
+.back-to-top:hover{
+	background-image: url('../image/back_to_top/happy-finger-top.png');
+}
+
+.flash-notice{
+	padding: 10px 0px;
+}
+
+.centrer{
+	text-align: center;
+}
+
+.card.small {
+  height: 250px;
+}
+
+.img-ligne{
+	vertical-align: bottom;
+	display: inline-block;
+	float: none !important;
+}
+
+.photos .photo, .admin-image .image{
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+.photos img, .admin-image img{
+	width: 100%;
+    height: auto;
+	max-width: 250px;
+	max-height: 250px;
+}
+
+@media only screen and (max-width: 450px){
+	.back-ground-blanc{
+		padding: 20px 0px;
+	}
+
+	.container .row {
+    	margin-left: 0rem;
+    	margin-right: 0rem;
+	}
+}
+
+/*------nav barre------*/
+.nav-wrapper ul.hide-on-med-and-down a{
+	color: #ffffff;
+}
+
+.nav-wrapper ul.hide-on-med-and-down a:hover{
+	color: #f9f9f9;
+}
+
+.nav-wrapper a.button-collapse:hover{
+	color: #f9f9f9;
+	background-color: #D76368;
+	text-decoration: none;
+}
+
+.brand-logo{
+	position: relative;
+    width: 160px;
+    top: 2px;
+    left: 2px;
+}
+
+.brand-logo img{
+	width: 160px;
+	height:auto;
+}
+
+
+/*------Page accueil------*/
+.div-evenement{
+	margin-bottom: 10px;
+}
+
+.card .card-title {
+    font-size: 18px;
+}
+
+.card-action a{
+	color: #EE6E73 !important;
+}
+
+.card .card-content .card-title {
+    line-height: 1.5;
+}
+
+.blian-index p{
+	text-align: center;
+}
+
+.div-evenement{
+	visibility: hidden;
+}
+
+.animation-from-left-home{
+	position: relative;
+	animation-name: animation-from-left-home;
+	animation-duration: 1s;
+}
+
+
+/*------A-propos------*/
+.qui-sommes-nous-a-propos .phrase-japonnaise{
+	text-align: -webkit-center;
+}
+
+.qui-sommes-nous-a-propos .phrase-japonnaise-center{
+	width: 31px;
+    height: 145px;
+    margin: 0 auto;
+}
+
+.qui-sommes-nous-a-propos .phrase-japonnaise p{
+	font-size: 1.5rem;
+	font-weight: 300;
+    writing-mode: vertical-lr;
+    margin: 0;
+}
+
+.qui-sommes-nous-a-propos2{
+	display: table;
+}
+
+.qui-sommes-nous-a-propos .col1-qui-sommes-nous-a-propos{
+	width: 50%;
+	float: left;
+	padding-right: 15px;
+	text-align: justify;
+}
+
+.qui-sommes-nous-a-propos .col2-qui-sommes-nous-a-propos{
+	width: 50%;
+	float: right;
+	padding-left: 15px;
+	text-align: justify;
+}
+
+.activites-reunions-hebdomadaires-a-propos img, .affiches-soirees-speciales-a-propos img{
+	width: 100%;
+  	height: auto;
+	padding: 5px 0px;
+}
+
+.activites-reunions-hebdomadaires-a-propos{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.activites-reunions-hebdomadaires-a-propos p{
+	font-size: 1.1rem;
+	letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.reunions-hebdomadaires-a-propos, .derniere-row-a-propos{
+	background-color: #f1f1f1;
+	padding: 20px 20px;
+	margin-bottom: 40px;
+}
+
+.affiches-soirees-speciales-a-propos{
+	padding-top: 20px;
+}
+
+.affiches-soirees-speciales-a-propos p{
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 600px){
+	.qui-sommes-nous-a-propos .col1-qui-sommes-nous-a-propos{
+		width: 100%;
+		float: none;
+    	padding-right: 0px;
+	}
+
+	.qui-sommes-nous-a-propos .col1-qui-sommes-nous-a-propos p{
+		border-right: none;
+	}
+
+	.qui-sommes-nous-a-propos .col2-qui-sommes-nous-a-propos{
+		width: 100%;
+		float: none;
+		padding-left: 0px;
+	}
+}
+
+
+/*------Photos------*/
+.photos .action a{
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+#lightbox {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	z-index: 11;
+}
+
+#lightbox span.close {
+    color: #d8d8d8;
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    top: 10px;
+    cursor: pointer;
+}
+
+#lightbox .contenu {
+    margin: 50px 60px;
+    display: table;
+}
+
+#lightbox .contenu span.left, #lightbox .contenu span.right {
+	display: table-cell;
+	vertical-align: middle;
+	color: #d8d8d8;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+#lightbox .contenu span.left i, #lightbox .contenu span.right i {
+	font-size: 30px;
+}
+
+#lightbox .contenu img {
+	/*width: auto;*/
+	height: 100%;
+	box-shadow: 0 0 25px #111;
+	-webkit-box-shadow: 0 0 25px #111;
+	-moz-box-shadow: 0 0 25px #111;
+	max-width: 940px;
+}
+
+
+/*------Contact------*/
+.google-maps {
+    position: relative;
+    padding-bottom: 35%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.contact .explication-contact p{
+	text-align: center;
+	margin: 30px 0px;
+}
+
+.coordonnes-contact{
+	width: 40%;
+	float: left;
+	padding-right: 10px;
+}
+
+.formulaire-contact-contact{
+	width: 60%;
+	float: right;
+	padding-left: 10px;
+}
+
+.titre-coordonnes-contact{
+	font-size: 18px;
+}
+
+@media only screen and (max-width: 600px){
+	.coordonnes-contact{
+		width: 100%;
+		float: none;
+		margin-bottom: 60px;
+		padding-right: 0px;
+	}
+
+	.formulaire-contact-contact{
+		width: 100%;
+		float: none;
+		padding-left: 0px;
+	}
+}
+
+
+/*------Page 404------*/
+.row-page404{
+	display: flex;
+}
+.col1-page404{
+	width: 50%;
+	float: left;
+	text-align: center;
+	margin: auto;
+	text-align: justify;
+}
+
+.col2-page404{
+	width: 50%;
+	float: right;
+	text-align: center;
+	text-align: justify;
+}
+
+.col2-page404 img{
+	width: 40%;
+    height: auto;
+}
+
+
+/*------Animation-----*/
+.element-left, .element-up, .element-right{
+	visibility: hidden;
+}
+
+.animation-from-left{
+	position: relative;
+	animation-name: slideInLeft;
+	animation-duration: 1s;
+}
+
+.animation-from-down{
+	position: relative;
+	animation-name: slideInUp;
+	animation-duration: 1s;
+}
+
+.animation-from-right{
+	position: relative;
+	animation-name: slideInRight;
+	animation-duration: 1s;
+}
+
+@-webkit-keyframes animation-from-left-home{
+	0%{
+		-webkit-transform:translate(-20%,0);
+		opacity:0
+	}
+
+	100%{
+		-webkit-transform:translate(0,0);
+		opacity:1
+	}
+}
+
+@-moz-keyframes animation-from-left-home{
+	0%{
+		-moz-transform:translate(-20%,0);
+		opacity:0
+	}
+
+	100%{
+		-moz-transform:translate(0,0);
+		opacity:1
+	}
+}
+
+@-o-keyframes animation-from-left-home{
+	0%{
+		-o-transform:translate(-20%,0);
+		opacity:0
+	}
+
+	100%{
+		-o-transform:translate(0,0);
+		opacity:1
+	}
+}
+
+@keyframes animation-from-left-home{
+	0%{
+		transform:translate(-20%,0);
+		opacity:0
+	}
+
+	100%{
+		transform:translate(0,0);opacity:1
+	}
+}
+
+@-webkit-keyframes slideInLeft{0%{-webkit-transform:translate3d(-50%, 0, 0);transform:translate3d(-50%, 0, 0);visibility:visible}100%{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}}@keyframes slideInLeft{0%{-webkit-transform:translate3d(-50%, 0, 0);transform:translate3d(-50%, 0, 0);visibility:visible}100%{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}}
+@-webkit-keyframes slideInUp{0%{-webkit-transform:translate3d(0, 100%, 0);transform:translate3d(0, 100%, 0);visibility:visible}100%{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}}@keyframes slideInUp{0%{-webkit-transform:translate3d(0, 100%, 0);transform:translate3d(0, 100%, 0);visibility:visible}100%{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}}
+@-webkit-keyframes slideInRight{0%{-webkit-transform:translate3d(100%, 0, 0);transform:translate3d(100%, 0, 0);visibility:visible}100%{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}}@keyframes slideInRight{0%{-webkit-transform:translate3d(100%, 0, 0);transform:translate3d(100%, 0, 0);visibility:visible}100%{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}}
+
+
+/*------Admin------*/
+.image-bibliotheque img{
+	width: 100%;
+	height: auto;
+}

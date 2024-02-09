@@ -1,0 +1,98 @@
+{% extends "AniGrenobleAppBundle:Include:layout.html.twig" %}
+
+{% block title %}A propos - {{ parent() }}{% endblock %}
+
+{% block head %}
+  {{ parent() }}
+  <meta name="description" content="Rejoignez ANI Grenoble ! L'association qui traite du thème de la culture du Japon à travers les mangas, animes, cosplay et bien d'autres encore.">
+  <meta name="keywords" content="manga, animes, Grenonle, cosplay">
+{% endblock %}
+
+{% block site_body %}
+  {{ parent() }}
+  <h1>A propos</h1>
+  <div class="back-ground-blanc">
+  	<div class="row qui-sommes-nous-a-propos">
+			<h2>Qui sommes-nous ?</h2>
+      <div class="qui-sommes-nous-a-propos2">
+        <div class="col1-qui-sommes-nous-a-propos element-left">
+  			 <p>Crée en 2013 par un étudiant d'origine Allemande et qui a oeuvré à son développement, ANI Grenoble est une association tournée vers la culture japonaise et voulant la partager par le biais d’événements. Nous proposons essentiellement des activités en lien avec les mangas, animes, blind tests, etc.</p>
+        </div>
+        <div class="col2-qui-sommes-nous-a-propos element-right">
+          <p>Notre association est majoritairement constituée d'étudiants qui partagent leur passion durant les réunions hebdomadaires ou des soirées événementielles.</p>
+        </div>
+      </div>
+      <div class="phrase-japonnaise">
+      <div class="phrase-japonnaise-center">
+        <p>昇る太陽の国</p>
+      </div>
+      </div>
+  	</div>
+  	<div class="row">
+			<h2>Que faisons-nous ?</h2>
+      <div class="reunions-hebdomadaires-a-propos">
+        <h3> Les réunions hebdomadaires</h3>
+  			<p>Les réunions hebdomadaires se déroulent une fois par semaine en fin d'après midi et durent 2 heures environ. Vous pouvez retrouver la <b>date de la prochaine réunion sur <a target="_blank" href="https://www.facebook.com/groups/226434010895190/">notre page facebook</a></b> ainsi que le bilan des précédentes rencontres. Vous les retrouver également sur la page d'<a href="{{ path('ani_grenoble_app_homepage') }}">accueil du site</a>.</p>
+        <p class="centrer">Lors de ces réunions, nous visionnons sur grand écran deux <b>épisodes d'animes</b> en japonais avec un sous-titrage en français ou en anglais.</p>
+        <p class="centrer">La soirée se continue avec d'autres activités en restant, bien sûr, branchée sur le thème du <span style="white-space: nowrap;">Japon :</span></p>
+        <div class="activites-reunions-hebdomadaires-a-propos">
+          <div class="row">
+            <div class="col l4 m4 s12 element-left">
+                <p class="card-title">Quizz</p>
+            		<img alt="ani grenoble blind test" src="{{ asset('image/a_propos/ani-grenoble-quizz.png') }}">
+            </div>
+            <div class="col l4 m4 s12 element-up">
+                <p class="card-title">Présentations / exposés</p>
+            		<img alt="ani grenoble presentations exposés" src="{{ asset('image/a_propos/ani-grenoble-presentations-exposes.png') }}">
+            </div>
+            <div class="col l4 m4 s12 element-right">
+                <p class="card-title">Cosplay</p>
+            		<img alt="ani grenoble cosplay" src="{{ asset('image/a_propos/ani-grenoble-cosplay.jpg') }}">
+            </div>
+          </div>
+          <div class="row">
+          	<div class="col l4 m4 s12 element-left">
+                <p class="card-title">Karaoke</p>
+              	<img alt="ani grenoble karaoke" src="{{ asset('image/a_propos/ani-grenoble-karaoke.jpg') }}">
+          	</div>
+          	<div class="col l4 m4 s12 element-up">
+                <p class="card-title">Jeux vidéos japonais</p>
+              	<img alt="ani grenoble jeux vidéos japonais" src="{{ asset('image/a_propos/ani-grenoble-jeux-videos-japonais.jpg') }}">
+          	</div>
+          	<div class="col l4 m4 s12 element-right">
+                <p class="card-title">Visual Novel</p>
+              	<img alt="ani grenoble visual novel" src="{{ asset('image/a_propos/ani-grenoble-visual-novel.jpg') }}">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="soirees-speciales-a-propos">
+        <h3> Les soirées événementielles</h3>
+        <p>Pendant l'année, nous faisons des soirées événementielles avec un thème défini à l'avance en rapport avec le Japon. L'entrée est ouverte à toutes personnes souhaitant y participer en échage d'une modique participation <span style="white-space: nowrap;">financière :)</span></p>
+        <p>Durant ces soirées, nous vous proposons de participer à de nombreux jeux tels que <b>des blind tests, des time-up ou encore des concours de cosplay</b> en lien avec le thème. Les dates des soirées sont communiquées sur notre site web et <a target="_blank" href="https://www.facebook.com/groups/226434010895190/">notre page facebook</a>. Les soirées se déroulent dans divers lieux : cafés manga, ateliers de dessins manga, etc.</p>
+        <div class="row affiches-soirees-speciales-a-propos">
+          <p>Quelques affiches ne nos différentes soirées :</p>
+          <div class="col l4 m4 s12">
+            <img class="materialboxed" alt="affiche-ani-grenoble"src="{{ asset('image/affiches/ani-grenoble-affiche-09-05-2016.png') }}">
+          </div>
+          <div class="col l4 m4 s12">
+            <img class="materialboxed" alt="affiche-ani-grenoble"src="{{ asset('image/affiches/17837380_10209312498265240_1695522934_o.png') }}">
+          </div>
+          <div class="col l4 m4 s12">
+            <img class="materialboxed" alt="affiche-ani-grenoble"src="{{ asset('image/affiches/17820687_10209312510345542_1519255717_o.png') }}">
+          </div>
+          <div class="col l4 m4 s12">
+            <img class="materialboxed" alt="affiche-ani-grenoble"src="{{ asset('image/affiches/17837771_10209312497545222_1065353728_o.png') }}">
+          </div>
+          <div class="col l4 m4 s12">
+            <img class="materialboxed" alt="affiche-ani-grenoble"src="{{ asset('image/affiches/17838636_10209312505145412_2046815012_o.png') }}">
+          </div>
+        </div>
+      </div>
+  	</div>
+  	<div class="row derniere-row-a-propos">
+      <p>Nous sommes ouverts à toutes personnes quelles soient étudiantes ou non et si cela vous intéresse, n'hésitez pas à <a href="{{ path('ani_grenoble_contact_contact') }}">nous <span style="white-space: nowrap;">rejoindre !</span></a></p>
+        <p>Les membres de l'ANI Grenoble. </p>
+  	</div>
+  </div>
+{% endblock %}

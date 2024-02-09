@@ -1,0 +1,19 @@
+ani_grenoble_admin:
+    resource: "@AniGrenobleAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ani_grenoble_contact:
+    resource: "@AniGrenobleContactBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ani_grenoble_utilisateur:
+    resource: "@AniGrenobleUtilisateurBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ani_grenoble_app:
+    resource: "@AniGrenobleAppBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
